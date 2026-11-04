@@ -20,7 +20,7 @@ $spex-spec-workflow 检查本次修改与 SPEC 是否一致。
 
 完整规则见 [SKILL.md](SKILL.md)，维护验收见 [acceptance-cases.md](references/acceptance-cases.md)。
 
-从“只有宿主、尚未安装 Skill”开始的公开[手动交付验收步骤](https://github.com/yangbobo2021/skills-acceptance-demo/blob/manual-v1.0.1/MANUAL-ACCEPTANCE.md)包含 Codex/Claude Code 安装、独立目录初始化 SPEC，以及 SubLang 四工作流的人工验收。
+从“只有宿主、尚未安装 Skill”开始的公开[手动交付验收步骤](https://github.com/yangbobo2021/skills-acceptance-demo/blob/main/MANUAL-ACCEPTANCE.md)包含 Codex/Claude Code 安装、独立目录初始化 SPEC，以及 SubLang 四工作流的人工验收。
 
 ## 版本维护
 
@@ -39,3 +39,5 @@ git push
 ## 已有验证
 
 2026-11-04 的历史验收包括临时项目检查、Linux ARM64 Docker 环境和独立 Codex 会话，以及许可证不阻塞、缺工具、脏工作区升级等定向回归。测试方法和边界见验收参考；这些结果不构成所有平台和模型的通用保证。
+
+v1.0.1 补充原始请求的语义覆盖核对：明确约束须进入可引用的要求和可观察验证，不能仅写在意图中；只写规格时不要求提前实现或运行产品。
