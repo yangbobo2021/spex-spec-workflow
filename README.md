@@ -20,6 +20,8 @@ $spex-spec-workflow 检查本次修改与 SPEC 是否一致。
 
 完整规则见 [SKILL.md](SKILL.md)，维护验收见 [acceptance-cases.md](references/acceptance-cases.md)。
 
+从“只有宿主、尚未安装 Skill”开始的公开[手动交付验收步骤](https://github.com/yangbobo2021/skills-acceptance-demo/blob/manual-v1.0.0/MANUAL-ACCEPTANCE.md)包含 Codex/Claude Code 安装、独立目录初始化 SPEC，以及 SubLang 四工作流的人工验收。
+
 ## 版本维护
 
 本仓库是 Skill 的 Git 工作副本。日常维护直接修改、检查差异并提交，不创建备份版本文件夹。
