@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spex 规格管理"
+  short_description: "管理项目 SPEC 的初始化、编写、变更、审查和标准升级，提供可核查的验收结果"
+  default_prompt: "使用 $spex-spec-workflow 管理当前项目的 SPEC，先识别现有规则，再完成本次任务并验证结果。"
